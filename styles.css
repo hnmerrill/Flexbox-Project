@@ -104,3 +104,16 @@ ul{
     box-shadow: 0 3px 5px black;
     padding: 15px 20px;
 }
+
+
+@media(max-width: 768px) {
+    .header .container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .boxes .container{
+        display: block;
+        text-align: center;
+    }
+}
